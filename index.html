@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Kat & David's Wedding Invitation</title>
+    <title>Dave & Kat's Wedding Invitation</title>
 
     <style>
       body {
@@ -35,6 +35,20 @@
         color: #333;
       }
 
+      .photos {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      .photo {
+        width: 150px;
+        height: 150px;
+        margin: 0 10px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
       .date {
         font-size: 24px;
         margin-bottom: 20px;
@@ -56,8 +70,13 @@
   </head>
   <body>
     <div class="invitation">
-      <h1>Kat & David's Wedding</h1>
-      <p>We are getting married! And we would love for you to join us in celebrating our big day!</p>
+      <h1>Dave & Kat's Wedding</h1>
+      <div class="photos">
+        <img src="https://i.ibb.co/N9qNg4n/dave.jpg" alt="Dave" class="photo">
+        <img src="https://i.ibb.co/tZPv06v/kat.jpg" alt="Kat" class="photo">
+      </div>
+      <p>From singing badly in a Karaoke bar to falling in love, Dave & Kat are getting married!</p>
+      <p>Join them for a family-style BBQ in a big house by the beach in Dunsborough, Australia.</p>
       <p>Date: <span class="date">17th of May 2023</span></p>
       <p>Location: <span class="location">Villa in Dunsborough, Australia</span></p>
       <p class="dress-code">Dress Code: Casual, come as you are!</p>
